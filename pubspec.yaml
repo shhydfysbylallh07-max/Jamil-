@@ -1,0 +1,34 @@
+name: kafeteria_alkhair
+description: تطبيق كافتيريا الخير للعصائر والوجبات الخفيفة
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  url_launcher: ^6.1.7
+  image_picker: ^0.8.7+4
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: fonts/Cairo-Regular.ttf
+        - asset: fonts/Cairo-Bold.ttf
+          weight: 700
